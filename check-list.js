@@ -17,7 +17,7 @@ $(document).ready(function(){
             str=str+count;
             lab=lab+count;
             // console.log(str);
-            console.log(str);
+            //console.log(str);
             checks +="<div class="+"spacing-in-button"+"><input type="+"checkbox class="+"worktest id="+str+" ><label class="+"checkbox-label for="+str+" id="+lab+">";
             checks +=value.title;
             checks +="</label><br><div>";
@@ -35,7 +35,7 @@ $(document).ready(function(){
                 id++;
                 str=str+id;
                 lab=lab+id;
-                console.log(value.completed);
+                //console.log(value.completed);
                 if (value.completed==true) {
                     $("#"+str).attr("checked",true);
                     $("#"+str).attr("disabled",true);
