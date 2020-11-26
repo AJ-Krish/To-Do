@@ -1,3 +1,10 @@
+$("#abclink").click(function(){
+    console.log("aa");
+    window.location.replace("index.html");
+    
+   
+});
+
 $(document).ready(function(){
     $.getJSON('https://jsonplaceholder.typicode.com/todos',function(data){
         var checks='';
