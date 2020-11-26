@@ -44,3 +44,9 @@ $(document).ready(function(){
         actiononsubmit.preventDefault();
     });
 });
+$("#abclink").click(function(){
+    console.log("aa");
+    window.location.replace("index.html");
+    
+   
+});
